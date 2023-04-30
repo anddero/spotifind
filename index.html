@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Spotifind</title>
+</head>
+
+<body>
+<div class="center spaced">
+    <label for="client-id-input">ID</label>
+    <input type="text" id="client-id-input"/>
+    <label for="secret-input">Secret</label>
+    <input type="text" id="secret-input"/>
+    <button id="token-button">Generate Token</button>
+</div>
+<div class="center spaced">
+    <label for="token-input">Token</label>
+    <input type="text" id="token-input"/>
+    <label for="find-input">Search</label>
+    <input type="text" id="find-input"/>
+    <button id="find-button">Find</button>
+    <input type="file" id="file-input"/>
+</div>
+<pre class="center" id="response-container"></pre>
+</body>
+
+<script src="script.js"></script>
+
+</html>

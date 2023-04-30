@@ -1,0 +1,16 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.spaced {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#response-container {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
